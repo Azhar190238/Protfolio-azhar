@@ -21,19 +21,16 @@ export default function About() {
                 <Meteors number={60} />
                 <img
                   src={HeroImg}
-                  className="rounded-[15px] w-[1407px] lg:h-[729px] md:h-[550px] h-[450px] shadow block border object-cover border-green-900/40 p-3 z-10 relative"
+                  className="rounded-[15px] w-[900px]  md:h-[550px] h-[450px] shadow block border object-cover border-green-900/40 p-3 z-10 relative"
                   alt="Jewel"
-                  width={1207}
+                  width={500}
                   height={729}
                 />
               </div>
             </div>
             <div className="relative space-y-6">
               <p className="text-white text-justify leading-relaxed">
-                Hello! I&apos;m <strong className="text-gradient"> Md Azharuddin</strong>, a passionate <strong>Software Engineer</strong> specializing in frontend development, with a growing focus on backend and full-stack development. I hold a B.Sc. in Computer Science and Engineering from <b>Khulna University</b>, and I am currently working as a <strong>Junior Software Engineer</strong> at <strong>Appstick Limited</strong>. In my role, I create visually appealing, scalable, and interactive web interfaces that ensure a seamless user experience. My expertise spans across frontend frameworks such as React and Next.js, alongside robust backend technologies like Node.js and MongoDB, which allow me to build full-stack solutions with ease.
-              </p>
-              <p className="text-white text-justify leading-relaxed">
-                My primary focus is on building innovative web solutions that empower users with seamless, high-performance applications. I believe that great user experiences and scalable architecture go hand-in-hand, and I work diligently to merge both in every project I undertake. I am committed to constantly improving my skills through hands-on experience, collaboration with industry experts, and staying up-to-date with the latest tech trends. My passion for development goes beyond just writing code—it&apos;s about solving real-world problems and creating tools that make people&apos;s lives easier.
+                Hello! I&apos;m <strong className="text-gradient"> Md Azharuddin</strong>, a passionate <strong>Software Engineer</strong> specializing in frontend development, with a growing growing expertise in backend and full-stack technologies. I hold a B.Sc. in Computer Science and Engineering from Khulna University and work as a Junior Software Engineer at Appstick Limited. I build scalable, user-focused web applications using React, Next.js, Node.js, and MongoDB. I’m driven by a love for clean design, performance, and real-world problem-solving, always striving to blend great user experience with robust architecture.
               </p>
               <div className="pt-8">
                 <blockquote className="border-l-4 border-gradient-to-r from-pink-500 to-teal-400 pl-6 py-4 transform transition-all duration-300 hover:scale-105 hover:bg-gray-800/30">

@@ -4,7 +4,7 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 import { ShineBorder } from "@/components/magicui/shine-border";
 import { ReactLenis } from "lenis/react";
 import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiTailwindcss, SiAntdesign, SiRemix, SiNextdotjs } from "react-icons/si";
+import { SiMongodb, SiExpress, SiTailwindcss, SiAntdesign, SiRemix, SiNextdotjs, SiFramer, SiVercel } from "react-icons/si";
 import { PiMagicWandBold } from "react-icons/pi";
 import { Cpu } from "lucide-react";
 import Marquee from "react-fast-marquee";
@@ -28,6 +28,25 @@ const projects = [
       { name: "AWS", icon: FaAws },
     ],
   },
+  {
+  name: "TravelStick",
+  heading: "Complete Travel and Tour Management System",
+  image: "/travelstick.svg",
+  link: "https://travelstick.appstick.com.bd/",
+  description:
+    "A comprehensive Travel and Tour Management System designed to simplify trip organization and booking. It supports three user roles: Admin, Vendor, and User. Key features include destination management, tour package booking, hotel and transport integration, wishlist, reviews, and secure online payments. The platform also supports multilingual functionality, vendor management, dynamic search and filtering, and a powerful dashboard for analytics and reporting.",
+  technologies: [
+    { name: "React", icon: FaReact },
+    { name: "Next.js", icon: SiNextdotjs },
+    { name: "Express.js", icon: SiExpress },
+    { name: "MongoDB", icon: SiMongodb },
+    { name: "Node.js", icon: FaNodeJs },
+    { name: "Tailwind CSS", icon: SiTailwindcss },
+    { name: "Framer Motion", icon: SiFramer },
+    { name: "Vercel", icon: SiVercel },
+  ],
+},
+
   {
     name: "Agencistick",
     heading:
