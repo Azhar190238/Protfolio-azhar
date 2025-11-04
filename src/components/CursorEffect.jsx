@@ -40,7 +40,7 @@ const CursorEffect = () => {
         }}
       >
         AZHAR
-        {/* Little chat-tail triangle */}
+        
         <div
           className="absolute left-1/2 -top-[5px] -translate-x-1/2 w-0 h-0"
           style={{

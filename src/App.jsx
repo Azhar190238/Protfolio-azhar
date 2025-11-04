@@ -15,7 +15,6 @@ export default function App() {
 
   return (
     <>
-      
       <Header />
       <Routes>
         <Route
@@ -41,4 +40,5 @@ export default function App() {
       </Routes>
     </>
   );
+  
 }
