@@ -17,11 +17,7 @@ const ExperienceCard = ({
   icon: Icon,
 }) => (
   <div className="group relative overflow-hidden transform hover:-translate-y-2 transition-all duration-300">
-
-    {/* Glass morphism effect */}
     <div className="absolute inset-0 backdrop-blur-lg bg-white/5 rounded-lg" />
-
-    {/* Animated gradient border */}
     <div className="absolute -inset-[2px] bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 rounded-lg opacity-0 group-hover:opacity-100 animate-gradient-xy transition-all duration-500" />
 
     <div className="relative bg-gray-900/90 rounded-lg p-8 h-full border border-gray-800/50 shadow-xl backdrop-blur-xl">
@@ -31,8 +27,6 @@ const ExperienceCard = ({
         {/* <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500 to-blue-500 opacity-25 rounded-full blur-xl group-hover:opacity-75 animate-pulse transition-all duration-500" /> */}
         <Icon className="w-12 h-12 text-cyan-400 relative z-10 transform group-hover:rotate-12 transition-transform duration-300" />
       </div>
-
-      {/* Content with improved typography */}
       <div className="space-y-3">
         <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
           <AnimatedGradientText  >
