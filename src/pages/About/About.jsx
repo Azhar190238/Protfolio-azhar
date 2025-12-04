@@ -6,7 +6,7 @@ import Meteors from "@/components/ui/meteors";
 export default function About() {
   return (
     <>
-      <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
+      <section id="about" className="py-16 md:py-32  text-white bg-[#04081A] overflow-hidden">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h1 className="text-4xl text-center font-bold tracking-tighter md:text-5xl lg:text-7xl">
             <AuroraText className="font-bold">About Me</AuroraText>

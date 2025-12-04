@@ -63,8 +63,8 @@ const EducationSection = () => {
   };
 
   return (
-    <section className="min-h-screen relative overflow-hidden xl:py-40 lg:py-32 md:py-20 py-12 bg-[#04081A]">
-      {/* Grid Background */}
+    <section className="min-h-screen relative overflow-hidden xl:py-40 lg:py-32 md:py-20 py-12 bg-[#04081A] overflow-hidden">
+    
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[length:50px_50px]" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#04081A] via-transparent to-[#04081A]" />

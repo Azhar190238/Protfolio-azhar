@@ -106,7 +106,7 @@ const projects = [
 export default function Projects() {
   return (
     <ReactLenis root>
-      <main className="bg-black">
+      <main className="bg-black overflow-hidden">
         <section className="text-white w-full mx-auto py-8 md:py-10 lg:py-12 xl:py-20">
           <div className="mx-auto max-w-5xl px-6 text-center">
             <h1 className="text-4xl text-center font-bold tracking-tighter md:text-5xl lg:text-7xl">
