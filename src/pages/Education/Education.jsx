@@ -28,7 +28,7 @@ const EducationSection = () => {
       mascot: <FaBookReader className="text-[#1b9759] lg:text-5xl md:text-4xl text-3xl animate-bounce" />,
       year: "2016-2018",
       description:
-      "Completed Higher Secondary Certificate (HSC) in the Science stream with  GPA of 4.67. Earned a Merit Board Scholarship in recognition of academic excellence. Gained a solid foundation in core scientific subjects such as Physics, Chemistry, Biology, and Mathematics. This academic journey fostered a strong analytical mindset, disciplined study habits, and a deep understanding of scientific principles, which laid the groundwork for pursuing advanced studies in Computer Science and Engineering.",
+      "Completed Higher Secondary Certificate (HSC) in the Science stream with  GPA of 5.00. Earned a Merit Board Scholarship in recognition of academic excellence. Gained a solid foundation in core scientific subjects such as Physics, Chemistry, Biology, and Mathematics. This academic journey fostered a strong analytical mindset, disciplined study habits, and a deep understanding of scientific principles, which laid the groundwork for pursuing advanced studies in Computer Science and Engineering.",
     },
     {
       degree: "Secondary School Certificate (SSC)",
