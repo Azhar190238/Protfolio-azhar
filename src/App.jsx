@@ -20,7 +20,7 @@ export default function App() {
         <Route
           path="/"
           element={
-            <>
+            <div className="overflow-hidden">
               <Hero />
               <Skills />
               <Experience />
@@ -28,7 +28,7 @@ export default function App() {
               <Education />
               <AdditionalExperience />
               <Contact />
-            </>
+            </div>
           }
         />
         <Route path="/skills" element={<Skills />} />

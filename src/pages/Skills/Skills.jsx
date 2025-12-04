@@ -201,7 +201,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <main className="pt-32 pb-20 text-white min-h-screen bg-[#04081A] relative overflow-x-hidden">
+    <main className="pt-32 pb-20 text-white min-h-screen bg-[#04081A] relative overflow-hidden">
       {/* Grid Background */}
       <div className="mx-auto max-w-5xl px-6 text-center">
         <h1 className="text-4xl text-center font-bold tracking-tighter md:text-5xl lg:text-7xl">
