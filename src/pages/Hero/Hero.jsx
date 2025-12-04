@@ -50,11 +50,6 @@ export default function Hero() {
     "JavaScript Enthusiast",
   ];
 
-  // skills: [
-  //     'React', 'NextJS', 'Redux', 'Express',
-  //     'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
-  //     'GraphQL', 'Git', 'Linux', 'Discord Development'
-  // ],
   const [code] = useState(`
 const profile = {
     name: 'Md Azharuddin',
